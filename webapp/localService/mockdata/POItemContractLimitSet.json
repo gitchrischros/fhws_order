@@ -1,0 +1,181 @@
+[{
+	"Purchaseorder": "PoNumber 1",
+	"PckgNo": "PckgNo 1",
+	"LineNo": "LineNo 1",
+	"DeleteInd": "DeleteInd 1",
+	"ConNumber": "ConNumber 1",
+	"ConItem": "ConItem 1",
+	"Limit": 1227.54,
+	"NoLimit": "NoLimit 1",
+	"ActValue": 7811.34,
+	"PriceChg": false,
+	"ShortText": "ShortText 1",
+	"Ktext1": "Ktext1 1",
+	"SubPackno": "SubPackno 1",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%201',PckgNo='PckgNo%201')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}, {
+	"Purchaseorder": "PoNumber 2",
+	"PckgNo": "PckgNo 2",
+	"LineNo": "LineNo 2",
+	"DeleteInd": "DeleteInd 2",
+	"ConNumber": "ConNumber 2",
+	"ConItem": "ConItem 2",
+	"Limit": 6821.29,
+	"NoLimit": "NoLimit 2",
+	"ActValue": 6028.5,
+	"PriceChg": true,
+	"ShortText": "ShortText 2",
+	"Ktext1": "Ktext1 2",
+	"SubPackno": "SubPackno 2",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%202',PckgNo='PckgNo%202')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}, {
+	"Purchaseorder": "PoNumber 3",
+	"PckgNo": "PckgNo 3",
+	"LineNo": "LineNo 3",
+	"DeleteInd": "DeleteInd 3",
+	"ConNumber": "ConNumber 3",
+	"ConItem": "ConItem 3",
+	"Limit": 3087.84,
+	"NoLimit": "NoLimit 3",
+	"ActValue": 4702.91,
+	"PriceChg": true,
+	"ShortText": "ShortText 3",
+	"Ktext1": "Ktext1 3",
+	"SubPackno": "SubPackno 3",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%203',PckgNo='PckgNo%203')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}, {
+	"Purchaseorder": "PoNumber 4",
+	"PckgNo": "PckgNo 4",
+	"LineNo": "LineNo 4",
+	"DeleteInd": "DeleteInd 4",
+	"ConNumber": "ConNumber 4",
+	"ConItem": "ConItem 4",
+	"Limit": 9483.24,
+	"NoLimit": "NoLimit 4",
+	"ActValue": 9731.15,
+	"PriceChg": false,
+	"ShortText": "ShortText 4",
+	"Ktext1": "Ktext1 4",
+	"SubPackno": "SubPackno 4",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%204',PckgNo='PckgNo%204')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}, {
+	"Purchaseorder": "PoNumber 5",
+	"PckgNo": "PckgNo 5",
+	"LineNo": "LineNo 5",
+	"DeleteInd": "DeleteInd 5",
+	"ConNumber": "ConNumber 5",
+	"ConItem": "ConItem 5",
+	"Limit": 6452.66,
+	"NoLimit": "NoLimit 5",
+	"ActValue": 8711.05,
+	"PriceChg": true,
+	"ShortText": "ShortText 5",
+	"Ktext1": "Ktext1 5",
+	"SubPackno": "SubPackno 5",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%205',PckgNo='PckgNo%205')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}, {
+	"Purchaseorder": "PoNumber 6",
+	"PckgNo": "PckgNo 6",
+	"LineNo": "LineNo 6",
+	"DeleteInd": "DeleteInd 6",
+	"ConNumber": "ConNumber 6",
+	"ConItem": "ConItem 6",
+	"Limit": 9633.13,
+	"NoLimit": "NoLimit 6",
+	"ActValue": 8828.21,
+	"PriceChg": true,
+	"ShortText": "ShortText 6",
+	"Ktext1": "Ktext1 6",
+	"SubPackno": "SubPackno 6",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%206',PckgNo='PckgNo%206')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}, {
+	"Purchaseorder": "PoNumber 7",
+	"PckgNo": "PckgNo 7",
+	"LineNo": "LineNo 7",
+	"DeleteInd": "DeleteInd 7",
+	"ConNumber": "ConNumber 7",
+	"ConItem": "ConItem 7",
+	"Limit": 3265.51,
+	"NoLimit": "NoLimit 7",
+	"ActValue": 2005.19,
+	"PriceChg": true,
+	"ShortText": "ShortText 7",
+	"Ktext1": "Ktext1 7",
+	"SubPackno": "SubPackno 7",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%207',PckgNo='PckgNo%207')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}, {
+	"Purchaseorder": "PoNumber 8",
+	"PckgNo": "PckgNo 8",
+	"LineNo": "LineNo 8",
+	"DeleteInd": "DeleteInd 8",
+	"ConNumber": "ConNumber 8",
+	"ConItem": "ConItem 8",
+	"Limit": 2244.77,
+	"NoLimit": "NoLimit 8",
+	"ActValue": 8597.22,
+	"PriceChg": false,
+	"ShortText": "ShortText 8",
+	"Ktext1": "Ktext1 8",
+	"SubPackno": "SubPackno 8",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%208',PckgNo='PckgNo%208')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}, {
+	"Purchaseorder": "PoNumber 9",
+	"PckgNo": "PckgNo 9",
+	"LineNo": "LineNo 9",
+	"DeleteInd": "DeleteInd 9",
+	"ConNumber": "ConNumber 9",
+	"ConItem": "ConItem 9",
+	"Limit": 2763.04,
+	"NoLimit": "NoLimit 9",
+	"ActValue": 764.87,
+	"PriceChg": false,
+	"ShortText": "ShortText 9",
+	"Ktext1": "Ktext1 9",
+	"SubPackno": "SubPackno 9",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%209',PckgNo='PckgNo%209')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}, {
+	"Purchaseorder": "PoNumber 10",
+	"PckgNo": "PckgNo 10",
+	"LineNo": "LineNo 10",
+	"DeleteInd": "DeleteInd 10",
+	"ConNumber": "ConNumber 10",
+	"ConItem": "ConItem 10",
+	"Limit": 7515.14,
+	"NoLimit": "NoLimit 10",
+	"ActValue": 5820.22,
+	"PriceChg": false,
+	"ShortText": "ShortText 10",
+	"Ktext1": "Ktext1 10",
+	"SubPackno": "SubPackno 10",
+	"__metadata": {
+		"uri": "POItemContractLimitSet(Purchaseorder='PoNumber%2010',PckgNo='PckgNo%2010')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POItemContractLimit"
+	}
+}]

@@ -1,0 +1,1101 @@
+[{
+	"PoNumber": "PoNumber 1",
+	"NetValue": 4486.38,
+	"CoCode": "CoCode 1",
+	"DocCat": "DocCat 1",
+	"DocType": "DocType 1",
+	"CntrlInd": "CntrlInd 1",
+	"DeleteInd": "DeleteInd 1",
+	"Status": "Status 1",
+	"CreatedOn": "/Date(1387556444000)/",
+	"CreatedBy": "CreatedBy 1",
+	"ItemIntvl": "ItemIntvl 1",
+	"LastItem": "LastItem 1",
+	"Vendor": "Vendor 1",
+	"Language": "Language 1",
+	"Pmnttrms": "Pmnttrms 1",
+	"Dscnt1To": 9024.45,
+	"Dscnt2To": 2383.21,
+	"Dscnt3To": 9784.17,
+	"CashDisc1": 7812.02,
+	"CashDisc2": 9568.63,
+	"PurchOrg": "PurchOrg 1",
+	"PurGroup": "PurGroup 1",
+	"Currency": "Currency 1",
+	"ExchRate": 6456.41,
+	"ExRateFx": false,
+	"DocDate": "/Date(1559834444000)/",
+	"VperStart": "/Date(1189092044000)/",
+	"VperEnd": "/Date(1270826444000)/",
+	"ApplicBy": "/Date(1052493644000)/",
+	"QuotDead": "/Date(1486570844000)/",
+	"BindgPer": "/Date(1391098844000)/",
+	"Warranty": "/Date(1556292044000)/",
+	"BidinvNo": "BidinvNo 1",
+	"Quotation": "Quotation 1",
+	"QuotDate": "/Date(1115047244000)/",
+	"Ref1": "Ref1 1",
+	"SalesPers": "SalesPers 1",
+	"Telephone": "Telephone 1",
+	"SupplVend": "SupplVend 1",
+	"Customer": "Customer 1",
+	"Agreement": "Agreement 1",
+	"RejReason": "RejReason 1",
+	"ComplDlv": true,
+	"GrMessage": true,
+	"SupplPlnt": "SupplPlnt 1",
+	"RcvgVend": "RcvgVend 1",
+	"Incoterms1": "Incoterms1 1",
+	"Incoterms2": "Incoterms2 1",
+	"TargetVal": 3144.25,
+	"CollNo": "CollNo 1",
+	"DocCond": "DocCond 1",
+	"Procedure": "Procedure 1",
+	"UpdateGrp": "UpdateGrp 1",
+	"DiffInv": "DiffInv 1",
+	"ExportNo": "ExportNo 1",
+	"OurRef": "OurRef 1",
+	"Logsystem": "Logsystem 1",
+	"Subitemint": "Subitemint 1",
+	"MastCond": true,
+	"RelGroup": "RelGroup 1",
+	"RelStrat": "RelStrat 1",
+	"RelInd": "RelInd 1",
+	"RelStatus": "RelStatus 1",
+	"SubjToR": false,
+	"TaxrCntry": "TaxrCntry 1",
+	"SchedInd": true,
+	"VendName": "VendName 1",
+	"CurrencyIso": "CurrencyIso 1",
+	"ExchRateCm": 4239.95,
+	"Hold": false,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%201')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%201')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%201')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%201')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%201')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%201')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%201')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%201')/Items"
+		}
+	}
+}, {
+	"PoNumber": "PoNumber 2",
+	"NetValue": 1897.15,
+	"CoCode": "CoCode 2",
+	"DocCat": "DocCat 2",
+	"DocType": "DocType 2",
+	"CntrlInd": "CntrlInd 2",
+	"DeleteInd": "DeleteInd 2",
+	"Status": "Status 2",
+	"CreatedOn": "/Date(1415290844000)/",
+	"CreatedBy": "CreatedBy 2",
+	"ItemIntvl": "ItemIntvl 2",
+	"LastItem": "LastItem 2",
+	"Vendor": "Vendor 2",
+	"Language": "Language 2",
+	"Pmnttrms": "Pmnttrms 2",
+	"Dscnt1To": 2136.37,
+	"Dscnt2To": 4573.74,
+	"Dscnt3To": 5643.04,
+	"CashDisc1": 1700.31,
+	"CashDisc2": 8030.37,
+	"PurchOrg": "PurchOrg 2",
+	"PurGroup": "PurGroup 2",
+	"Currency": "Currency 2",
+	"ExchRate": 9099.39,
+	"ExRateFx": false,
+	"DocDate": "/Date(1052839244000)/",
+	"VperStart": "/Date(1006532444000)/",
+	"VperEnd": "/Date(1332433244000)/",
+	"ApplicBy": "/Date(1177341644000)/",
+	"QuotDead": "/Date(1541866844000)/",
+	"BindgPer": "/Date(1257870044000)/",
+	"Warranty": "/Date(1429456844000)/",
+	"BidinvNo": "BidinvNo 2",
+	"Quotation": "Quotation 2",
+	"QuotDate": "/Date(1193239244000)/",
+	"Ref1": "Ref1 2",
+	"SalesPers": "SalesPers 2",
+	"Telephone": "Telephone 2",
+	"SupplVend": "SupplVend 2",
+	"Customer": "Customer 2",
+	"Agreement": "Agreement 2",
+	"RejReason": "RejReason 2",
+	"ComplDlv": false,
+	"GrMessage": false,
+	"SupplPlnt": "SupplPlnt 2",
+	"RcvgVend": "RcvgVend 2",
+	"Incoterms1": "Incoterms1 2",
+	"Incoterms2": "Incoterms2 2",
+	"TargetVal": 8982.13,
+	"CollNo": "CollNo 2",
+	"DocCond": "DocCond 2",
+	"Procedure": "Procedure 2",
+	"UpdateGrp": "UpdateGrp 2",
+	"DiffInv": "DiffInv 2",
+	"ExportNo": "ExportNo 2",
+	"OurRef": "OurRef 2",
+	"Logsystem": "Logsystem 2",
+	"Subitemint": "Subitemint 2",
+	"MastCond": false,
+	"RelGroup": "RelGroup 2",
+	"RelStrat": "RelStrat 2",
+	"RelInd": "RelInd 2",
+	"RelStatus": "RelStatus 2",
+	"SubjToR": true,
+	"TaxrCntry": "TaxrCntry 2",
+	"SchedInd": true,
+	"VendName": "VendName 2",
+	"CurrencyIso": "CurrencyIso 2",
+	"ExchRateCm": 7921.63,
+	"Hold": true,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%202')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%202')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%202')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%202')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%202')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%202')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%202')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%202')/Items"
+		}
+	}
+}, {
+	"PoNumber": "PoNumber 3",
+	"NetValue": 5647.06,
+	"CoCode": "CoCode 3",
+	"DocCat": "DocCat 3",
+	"DocType": "DocType 3",
+	"CntrlInd": "CntrlInd 3",
+	"DeleteInd": "DeleteInd 3",
+	"Status": "Status 3",
+	"CreatedOn": "/Date(1439306444000)/",
+	"CreatedBy": "CreatedBy 3",
+	"ItemIntvl": "ItemIntvl 3",
+	"LastItem": "LastItem 3",
+	"Vendor": "Vendor 3",
+	"Language": "Language 3",
+	"Pmnttrms": "Pmnttrms 3",
+	"Dscnt1To": 1322.85,
+	"Dscnt2To": 9994.54,
+	"Dscnt3To": 5190.94,
+	"CashDisc1": 5874.87,
+	"CashDisc2": 661.91,
+	"PurchOrg": "PurchOrg 3",
+	"PurGroup": "PurGroup 3",
+	"Currency": "Currency 3",
+	"ExchRate": 5683.28,
+	"ExRateFx": true,
+	"DocDate": "/Date(1320596444000)/",
+	"VperStart": "/Date(1239895244000)/",
+	"VperEnd": "/Date(1092324044000)/",
+	"ApplicBy": "/Date(1303744844000)/",
+	"QuotDead": "/Date(1219591244000)/",
+	"BindgPer": "/Date(1156951244000)/",
+	"Warranty": "/Date(951495644000)/",
+	"BidinvNo": "BidinvNo 3",
+	"Quotation": "Quotation 3",
+	"QuotDate": "/Date(1328804444000)/",
+	"Ref1": "Ref1 3",
+	"SalesPers": "SalesPers 3",
+	"Telephone": "Telephone 3",
+	"SupplVend": "SupplVend 3",
+	"Customer": "Customer 3",
+	"Agreement": "Agreement 3",
+	"RejReason": "RejReason 3",
+	"ComplDlv": false,
+	"GrMessage": true,
+	"SupplPlnt": "SupplPlnt 3",
+	"RcvgVend": "RcvgVend 3",
+	"Incoterms1": "Incoterms1 3",
+	"Incoterms2": "Incoterms2 3",
+	"TargetVal": 2636.67,
+	"CollNo": "CollNo 3",
+	"DocCond": "DocCond 3",
+	"Procedure": "Procedure 3",
+	"UpdateGrp": "UpdateGrp 3",
+	"DiffInv": "DiffInv 3",
+	"ExportNo": "ExportNo 3",
+	"OurRef": "OurRef 3",
+	"Logsystem": "Logsystem 3",
+	"Subitemint": "Subitemint 3",
+	"MastCond": false,
+	"RelGroup": "RelGroup 3",
+	"RelStrat": "RelStrat 3",
+	"RelInd": "RelInd 3",
+	"RelStatus": "RelStatus 3",
+	"SubjToR": false,
+	"TaxrCntry": "TaxrCntry 3",
+	"SchedInd": false,
+	"VendName": "VendName 3",
+	"CurrencyIso": "CurrencyIso 3",
+	"ExchRateCm": 8679.41,
+	"Hold": false,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%203')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%203')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%203')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%203')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%203')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%203')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%203')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%203')/Items"
+		}
+	}
+}, {
+	"PoNumber": "PoNumber 4",
+	"NetValue": 7212.25,
+	"CoCode": "CoCode 4",
+	"DocCat": "DocCat 4",
+	"DocType": "DocType 4",
+	"CntrlInd": "CntrlInd 4",
+	"DeleteInd": "DeleteInd 4",
+	"Status": "Status 4",
+	"CreatedOn": "/Date(1196785244000)/",
+	"CreatedBy": "CreatedBy 4",
+	"ItemIntvl": "ItemIntvl 4",
+	"LastItem": "LastItem 4",
+	"Vendor": "Vendor 4",
+	"Language": "Language 4",
+	"Pmnttrms": "Pmnttrms 4",
+	"Dscnt1To": 321.32,
+	"Dscnt2To": 6672.91,
+	"Dscnt3To": 578.49,
+	"CashDisc1": 8730.85,
+	"CashDisc2": 2469.95,
+	"PurchOrg": "PurchOrg 4",
+	"PurGroup": "PurGroup 4",
+	"Currency": "Currency 4",
+	"ExchRate": 5694.75,
+	"ExRateFx": false,
+	"DocDate": "/Date(1183735244000)/",
+	"VperStart": "/Date(1148397644000)/",
+	"VperEnd": "/Date(1206462044000)/",
+	"ApplicBy": "/Date(1307546444000)/",
+	"QuotDead": "/Date(1172506844000)/",
+	"BindgPer": "/Date(1230654044000)/",
+	"Warranty": "/Date(1252855244000)/",
+	"BidinvNo": "BidinvNo 4",
+	"Quotation": "Quotation 4",
+	"QuotDate": "/Date(1516983644000)/",
+	"Ref1": "Ref1 4",
+	"SalesPers": "SalesPers 4",
+	"Telephone": "Telephone 4",
+	"SupplVend": "SupplVend 4",
+	"Customer": "Customer 4",
+	"Agreement": "Agreement 4",
+	"RejReason": "RejReason 4",
+	"ComplDlv": false,
+	"GrMessage": true,
+	"SupplPlnt": "SupplPlnt 4",
+	"RcvgVend": "RcvgVend 4",
+	"Incoterms1": "Incoterms1 4",
+	"Incoterms2": "Incoterms2 4",
+	"TargetVal": 2447.57,
+	"CollNo": "CollNo 4",
+	"DocCond": "DocCond 4",
+	"Procedure": "Procedure 4",
+	"UpdateGrp": "UpdateGrp 4",
+	"DiffInv": "DiffInv 4",
+	"ExportNo": "ExportNo 4",
+	"OurRef": "OurRef 4",
+	"Logsystem": "Logsystem 4",
+	"Subitemint": "Subitemint 4",
+	"MastCond": false,
+	"RelGroup": "RelGroup 4",
+	"RelStrat": "RelStrat 4",
+	"RelInd": "RelInd 4",
+	"RelStatus": "RelStatus 4",
+	"SubjToR": false,
+	"TaxrCntry": "TaxrCntry 4",
+	"SchedInd": false,
+	"VendName": "VendName 4",
+	"CurrencyIso": "CurrencyIso 4",
+	"ExchRateCm": 5576.57,
+	"Hold": true,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%204')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%204')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%204')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%204')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%204')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%204')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%204')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%204')/Items"
+		}
+	}
+}, {
+	"PoNumber": "PoNumber 5",
+	"NetValue": 9802.04,
+	"CoCode": "CoCode 5",
+	"DocCat": "DocCat 5",
+	"DocType": "DocType 5",
+	"CntrlInd": "CntrlInd 5",
+	"DeleteInd": "DeleteInd 5",
+	"Status": "Status 5",
+	"CreatedOn": "/Date(1528384844000)/",
+	"CreatedBy": "CreatedBy 5",
+	"ItemIntvl": "ItemIntvl 5",
+	"LastItem": "LastItem 5",
+	"Vendor": "Vendor 5",
+	"Language": "Language 5",
+	"Pmnttrms": "Pmnttrms 5",
+	"Dscnt1To": 8404.97,
+	"Dscnt2To": 9237.8,
+	"Dscnt3To": 7170.4,
+	"CashDisc1": 6336.1,
+	"CashDisc2": 6580.78,
+	"PurchOrg": "PurchOrg 5",
+	"PurGroup": "PurGroup 5",
+	"Currency": "Currency 5",
+	"ExchRate": 70.15,
+	"ExRateFx": false,
+	"DocDate": "/Date(1004372444000)/",
+	"VperStart": "/Date(1092151244000)/",
+	"VperEnd": "/Date(1494861644000)/",
+	"ApplicBy": "/Date(1519921244000)/",
+	"QuotDead": "/Date(1289406044000)/",
+	"BindgPer": "/Date(1477236044000)/",
+	"Warranty": "/Date(967821644000)/",
+	"BidinvNo": "BidinvNo 5",
+	"Quotation": "Quotation 5",
+	"QuotDate": "/Date(978452444000)/",
+	"Ref1": "Ref1 5",
+	"SalesPers": "SalesPers 5",
+	"Telephone": "Telephone 5",
+	"SupplVend": "SupplVend 5",
+	"Customer": "Customer 5",
+	"Agreement": "Agreement 5",
+	"RejReason": "RejReason 5",
+	"ComplDlv": false,
+	"GrMessage": true,
+	"SupplPlnt": "SupplPlnt 5",
+	"RcvgVend": "RcvgVend 5",
+	"Incoterms1": "Incoterms1 5",
+	"Incoterms2": "Incoterms2 5",
+	"TargetVal": 2986.6,
+	"CollNo": "CollNo 5",
+	"DocCond": "DocCond 5",
+	"Procedure": "Procedure 5",
+	"UpdateGrp": "UpdateGrp 5",
+	"DiffInv": "DiffInv 5",
+	"ExportNo": "ExportNo 5",
+	"OurRef": "OurRef 5",
+	"Logsystem": "Logsystem 5",
+	"Subitemint": "Subitemint 5",
+	"MastCond": true,
+	"RelGroup": "RelGroup 5",
+	"RelStrat": "RelStrat 5",
+	"RelInd": "RelInd 5",
+	"RelStatus": "RelStatus 5",
+	"SubjToR": false,
+	"TaxrCntry": "TaxrCntry 5",
+	"SchedInd": true,
+	"VendName": "VendName 5",
+	"CurrencyIso": "CurrencyIso 5",
+	"ExchRateCm": 523.84,
+	"Hold": true,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%205')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%205')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%205')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%205')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%205')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%205')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%205')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%205')/Items"
+		}
+	}
+}, {
+	"PoNumber": "PoNumber 6",
+	"NetValue": 4754.75,
+	"CoCode": "CoCode 6",
+	"DocCat": "DocCat 6",
+	"DocType": "DocType 6",
+	"CntrlInd": "CntrlInd 6",
+	"DeleteInd": "DeleteInd 6",
+	"Status": "Status 6",
+	"CreatedOn": "/Date(1216394444000)/",
+	"CreatedBy": "CreatedBy 6",
+	"ItemIntvl": "ItemIntvl 6",
+	"LastItem": "LastItem 6",
+	"Vendor": "Vendor 6",
+	"Language": "Language 6",
+	"Pmnttrms": "Pmnttrms 6",
+	"Dscnt1To": 9962.61,
+	"Dscnt2To": 7833.49,
+	"Dscnt3To": 9699.86,
+	"CashDisc1": 6394.16,
+	"CashDisc2": 9861.42,
+	"PurchOrg": "PurchOrg 6",
+	"PurGroup": "PurGroup 6",
+	"Currency": "Currency 6",
+	"ExchRate": 6272.71,
+	"ExRateFx": false,
+	"DocDate": "/Date(1491578444000)/",
+	"VperStart": "/Date(1384878044000)/",
+	"VperEnd": "/Date(1156346444000)/",
+	"ApplicBy": "/Date(1349968844000)/",
+	"QuotDead": "/Date(1359735644000)/",
+	"BindgPer": "/Date(1400944844000)/",
+	"Warranty": "/Date(1062948044000)/",
+	"BidinvNo": "BidinvNo 6",
+	"Quotation": "Quotation 6",
+	"QuotDate": "/Date(989680844000)/",
+	"Ref1": "Ref1 6",
+	"SalesPers": "SalesPers 6",
+	"Telephone": "Telephone 6",
+	"SupplVend": "SupplVend 6",
+	"Customer": "Customer 6",
+	"Agreement": "Agreement 6",
+	"RejReason": "RejReason 6",
+	"ComplDlv": false,
+	"GrMessage": false,
+	"SupplPlnt": "SupplPlnt 6",
+	"RcvgVend": "RcvgVend 6",
+	"Incoterms1": "Incoterms1 6",
+	"Incoterms2": "Incoterms2 6",
+	"TargetVal": 9575.7,
+	"CollNo": "CollNo 6",
+	"DocCond": "DocCond 6",
+	"Procedure": "Procedure 6",
+	"UpdateGrp": "UpdateGrp 6",
+	"DiffInv": "DiffInv 6",
+	"ExportNo": "ExportNo 6",
+	"OurRef": "OurRef 6",
+	"Logsystem": "Logsystem 6",
+	"Subitemint": "Subitemint 6",
+	"MastCond": false,
+	"RelGroup": "RelGroup 6",
+	"RelStrat": "RelStrat 6",
+	"RelInd": "RelInd 6",
+	"RelStatus": "RelStatus 6",
+	"SubjToR": false,
+	"TaxrCntry": "TaxrCntry 6",
+	"SchedInd": false,
+	"VendName": "VendName 6",
+	"CurrencyIso": "CurrencyIso 6",
+	"ExchRateCm": 5608.29,
+	"Hold": false,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%206')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%206')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%206')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%206')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%206')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%206')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%206')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%206')/Items"
+		}
+	}
+}, {
+	"PoNumber": "PoNumber 7",
+	"NetValue": 6100.12,
+	"CoCode": "CoCode 7",
+	"DocCat": "DocCat 7",
+	"DocType": "DocType 7",
+	"CntrlInd": "CntrlInd 7",
+	"DeleteInd": "DeleteInd 7",
+	"Status": "Status 7",
+	"CreatedOn": "/Date(1397920844000)/",
+	"CreatedBy": "CreatedBy 7",
+	"ItemIntvl": "ItemIntvl 7",
+	"LastItem": "LastItem 7",
+	"Vendor": "Vendor 7",
+	"Language": "Language 7",
+	"Pmnttrms": "Pmnttrms 7",
+	"Dscnt1To": 1107.33,
+	"Dscnt2To": 9621.39,
+	"Dscnt3To": 5842,
+	"CashDisc1": 3496.83,
+	"CashDisc2": 568.57,
+	"PurchOrg": "PurchOrg 7",
+	"PurGroup": "PurGroup 7",
+	"Currency": "Currency 7",
+	"ExchRate": 2348.02,
+	"ExRateFx": false,
+	"DocDate": "/Date(1445268044000)/",
+	"VperStart": "/Date(1164212444000)/",
+	"VperEnd": "/Date(1001085644000)/",
+	"ApplicBy": "/Date(1399994444000)/",
+	"QuotDead": "/Date(1109607644000)/",
+	"BindgPer": "/Date(1309792844000)/",
+	"Warranty": "/Date(987434444000)/",
+	"BidinvNo": "BidinvNo 7",
+	"Quotation": "Quotation 7",
+	"QuotDate": "/Date(1508599244000)/",
+	"Ref1": "Ref1 7",
+	"SalesPers": "SalesPers 7",
+	"Telephone": "Telephone 7",
+	"SupplVend": "SupplVend 7",
+	"Customer": "Customer 7",
+	"Agreement": "Agreement 7",
+	"RejReason": "RejReason 7",
+	"ComplDlv": false,
+	"GrMessage": true,
+	"SupplPlnt": "SupplPlnt 7",
+	"RcvgVend": "RcvgVend 7",
+	"Incoterms1": "Incoterms1 7",
+	"Incoterms2": "Incoterms2 7",
+	"TargetVal": 7262.99,
+	"CollNo": "CollNo 7",
+	"DocCond": "DocCond 7",
+	"Procedure": "Procedure 7",
+	"UpdateGrp": "UpdateGrp 7",
+	"DiffInv": "DiffInv 7",
+	"ExportNo": "ExportNo 7",
+	"OurRef": "OurRef 7",
+	"Logsystem": "Logsystem 7",
+	"Subitemint": "Subitemint 7",
+	"MastCond": false,
+	"RelGroup": "RelGroup 7",
+	"RelStrat": "RelStrat 7",
+	"RelInd": "RelInd 7",
+	"RelStatus": "RelStatus 7",
+	"SubjToR": true,
+	"TaxrCntry": "TaxrCntry 7",
+	"SchedInd": false,
+	"VendName": "VendName 7",
+	"CurrencyIso": "CurrencyIso 7",
+	"ExchRateCm": 8969.1,
+	"Hold": false,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%207')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%207')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%207')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%207')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%207')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%207')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%207')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%207')/Items"
+		}
+	}
+}, {
+	"PoNumber": "PoNumber 8",
+	"NetValue": 9212.15,
+	"CoCode": "CoCode 8",
+	"DocCat": "DocCat 8",
+	"DocType": "DocType 8",
+	"CntrlInd": "CntrlInd 8",
+	"DeleteInd": "DeleteInd 8",
+	"Status": "Status 8",
+	"CreatedOn": "/Date(1298823644000)/",
+	"CreatedBy": "CreatedBy 8",
+	"ItemIntvl": "ItemIntvl 8",
+	"LastItem": "LastItem 8",
+	"Vendor": "Vendor 8",
+	"Language": "Language 8",
+	"Pmnttrms": "Pmnttrms 8",
+	"Dscnt1To": 3774.26,
+	"Dscnt2To": 8726.57,
+	"Dscnt3To": 5288,
+	"CashDisc1": 2341.15,
+	"CashDisc2": 9651.37,
+	"PurchOrg": "PurchOrg 8",
+	"PurGroup": "PurGroup 8",
+	"Currency": "Currency 8",
+	"ExchRate": 1364.37,
+	"ExRateFx": false,
+	"DocDate": "/Date(1494775244000)/",
+	"VperStart": "/Date(1514391644000)/",
+	"VperEnd": "/Date(1266250844000)/",
+	"ApplicBy": "/Date(958922444000)/",
+	"QuotDead": "/Date(1134922844000)/",
+	"BindgPer": "/Date(1575390044000)/",
+	"Warranty": "/Date(1158679244000)/",
+	"BidinvNo": "BidinvNo 8",
+	"Quotation": "Quotation 8",
+	"QuotDate": "/Date(983463644000)/",
+	"Ref1": "Ref1 8",
+	"SalesPers": "SalesPers 8",
+	"Telephone": "Telephone 8",
+	"SupplVend": "SupplVend 8",
+	"Customer": "Customer 8",
+	"Agreement": "Agreement 8",
+	"RejReason": "RejReason 8",
+	"ComplDlv": false,
+	"GrMessage": true,
+	"SupplPlnt": "SupplPlnt 8",
+	"RcvgVend": "RcvgVend 8",
+	"Incoterms1": "Incoterms1 8",
+	"Incoterms2": "Incoterms2 8",
+	"TargetVal": 7499,
+	"CollNo": "CollNo 8",
+	"DocCond": "DocCond 8",
+	"Procedure": "Procedure 8",
+	"UpdateGrp": "UpdateGrp 8",
+	"DiffInv": "DiffInv 8",
+	"ExportNo": "ExportNo 8",
+	"OurRef": "OurRef 8",
+	"Logsystem": "Logsystem 8",
+	"Subitemint": "Subitemint 8",
+	"MastCond": true,
+	"RelGroup": "RelGroup 8",
+	"RelStrat": "RelStrat 8",
+	"RelInd": "RelInd 8",
+	"RelStatus": "RelStatus 8",
+	"SubjToR": true,
+	"TaxrCntry": "TaxrCntry 8",
+	"SchedInd": false,
+	"VendName": "VendName 8",
+	"CurrencyIso": "CurrencyIso 8",
+	"ExchRateCm": 4423.09,
+	"Hold": true,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%208')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%208')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%208')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%208')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%208')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%208')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%208')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%208')/Items"
+		}
+	}
+}, {
+	"PoNumber": "PoNumber 9",
+	"NetValue": 8493.43,
+	"CoCode": "CoCode 9",
+	"DocCat": "DocCat 9",
+	"DocType": "DocType 9",
+	"CntrlInd": "CntrlInd 9",
+	"DeleteInd": "DeleteInd 9",
+	"Status": "Status 9",
+	"CreatedOn": "/Date(1210000844000)/",
+	"CreatedBy": "CreatedBy 9",
+	"ItemIntvl": "ItemIntvl 9",
+	"LastItem": "LastItem 9",
+	"Vendor": "Vendor 9",
+	"Language": "Language 9",
+	"Pmnttrms": "Pmnttrms 9",
+	"Dscnt1To": 7325.37,
+	"Dscnt2To": 194.02,
+	"Dscnt3To": 843.13,
+	"CashDisc1": 4044.67,
+	"CashDisc2": 5963.54,
+	"PurchOrg": "PurchOrg 9",
+	"PurGroup": "PurGroup 9",
+	"Currency": "Currency 9",
+	"ExchRate": 522.05,
+	"ExRateFx": false,
+	"DocDate": "/Date(1138983644000)/",
+	"VperStart": "/Date(1497712844000)/",
+	"VperEnd": "/Date(1067962844000)/",
+	"ApplicBy": "/Date(1281367244000)/",
+	"QuotDead": "/Date(1249572044000)/",
+	"BindgPer": "/Date(1340292044000)/",
+	"Warranty": "/Date(1457281244000)/",
+	"BidinvNo": "BidinvNo 9",
+	"Quotation": "Quotation 9",
+	"QuotDate": "/Date(1118589644000)/",
+	"Ref1": "Ref1 9",
+	"SalesPers": "SalesPers 9",
+	"Telephone": "Telephone 9",
+	"SupplVend": "SupplVend 9",
+	"Customer": "Customer 9",
+	"Agreement": "Agreement 9",
+	"RejReason": "RejReason 9",
+	"ComplDlv": false,
+	"GrMessage": false,
+	"SupplPlnt": "SupplPlnt 9",
+	"RcvgVend": "RcvgVend 9",
+	"Incoterms1": "Incoterms1 9",
+	"Incoterms2": "Incoterms2 9",
+	"TargetVal": 3949.34,
+	"CollNo": "CollNo 9",
+	"DocCond": "DocCond 9",
+	"Procedure": "Procedure 9",
+	"UpdateGrp": "UpdateGrp 9",
+	"DiffInv": "DiffInv 9",
+	"ExportNo": "ExportNo 9",
+	"OurRef": "OurRef 9",
+	"Logsystem": "Logsystem 9",
+	"Subitemint": "Subitemint 9",
+	"MastCond": false,
+	"RelGroup": "RelGroup 9",
+	"RelStrat": "RelStrat 9",
+	"RelInd": "RelInd 9",
+	"RelStatus": "RelStatus 9",
+	"SubjToR": false,
+	"TaxrCntry": "TaxrCntry 9",
+	"SchedInd": false,
+	"VendName": "VendName 9",
+	"CurrencyIso": "CurrencyIso 9",
+	"ExchRateCm": 1899.13,
+	"Hold": false,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%209')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%209')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%209')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%209')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%209')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%209')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%209')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%209')/Items"
+		}
+	}
+}, {
+	"PoNumber": "PoNumber 10",
+	"NetValue": 5889.97,
+	"CoCode": "CoCode 10",
+	"DocCat": "DocCat 10",
+	"DocType": "DocType 10",
+	"CntrlInd": "CntrlInd 10",
+	"DeleteInd": "DeleteInd 10",
+	"Status": "Status 10",
+	"CreatedOn": "/Date(1202660444000)/",
+	"CreatedBy": "CreatedBy 10",
+	"ItemIntvl": "ItemIntvl 10",
+	"LastItem": "LastItem 10",
+	"Vendor": "Vendor 10",
+	"Language": "Language 10",
+	"Pmnttrms": "Pmnttrms 10",
+	"Dscnt1To": 1421.94,
+	"Dscnt2To": 1926.47,
+	"Dscnt3To": 6097.57,
+	"CashDisc1": 326.55,
+	"CashDisc2": 7161.49,
+	"PurchOrg": "PurchOrg 10",
+	"PurGroup": "PurGroup 10",
+	"Currency": "Currency 10",
+	"ExchRate": 5520.34,
+	"ExRateFx": true,
+	"DocDate": "/Date(1188314444000)/",
+	"VperStart": "/Date(1036858844000)/",
+	"VperEnd": "/Date(958317644000)/",
+	"ApplicBy": "/Date(1156173644000)/",
+	"QuotDead": "/Date(1433431244000)/",
+	"BindgPer": "/Date(1237393244000)/",
+	"Warranty": "/Date(1279984844000)/",
+	"BidinvNo": "BidinvNo 10",
+	"Quotation": "Quotation 10",
+	"QuotDate": "/Date(1487953244000)/",
+	"Ref1": "Ref1 10",
+	"SalesPers": "SalesPers 10",
+	"Telephone": "Telephone 10",
+	"SupplVend": "SupplVend 10",
+	"Customer": "Customer 10",
+	"Agreement": "Agreement 10",
+	"RejReason": "RejReason 10",
+	"ComplDlv": true,
+	"GrMessage": true,
+	"SupplPlnt": "SupplPlnt 10",
+	"RcvgVend": "RcvgVend 10",
+	"Incoterms1": "Incoterms1 10",
+	"Incoterms2": "Incoterms2 10",
+	"TargetVal": 6878.9,
+	"CollNo": "CollNo 10",
+	"DocCond": "DocCond 10",
+	"Procedure": "Procedure 10",
+	"UpdateGrp": "UpdateGrp 10",
+	"DiffInv": "DiffInv 10",
+	"ExportNo": "ExportNo 10",
+	"OurRef": "OurRef 10",
+	"Logsystem": "Logsystem 10",
+	"Subitemint": "Subitemint 10",
+	"MastCond": false,
+	"RelGroup": "RelGroup 10",
+	"RelStrat": "RelStrat 10",
+	"RelInd": "RelInd 10",
+	"RelStatus": "RelStatus 10",
+	"SubjToR": true,
+	"TaxrCntry": "TaxrCntry 10",
+	"SchedInd": false,
+	"VendName": "VendName 10",
+	"CurrencyIso": "CurrencyIso 10",
+	"ExchRateCm": 8603.07,
+	"Hold": true,
+	"__metadata": {
+		"uri": "PurchaseOrderSet('PoNumber%2010')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.PurchaseOrder"
+	},
+	"Adress": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%2010')/Adress"
+		}
+	},
+	"HeaderTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%2010')/HeaderTexts"
+		}
+	},
+	"ItemContractLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%2010')/ItemContractLimits"
+		}
+	},
+	"ItemLimits": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%2010')/ItemLimits"
+		}
+	},
+	"ItemServices": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%2010')/ItemServices"
+		}
+	},
+	"ServiceTexts": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%2010')/ServiceTexts"
+		}
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "PurchaseOrderSet('PoNumber%2010')/Items"
+		}
+	}
+}]

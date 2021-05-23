@@ -1,0 +1,174 @@
+<mvc:View
+	controllerName="fhwsorder.controller.Detail"
+	xmlns="sap.m"
+	xmlns:layout="sap.ui.layout"
+	xmlns:semantic="sap.f.semantic"
+	xmlns:mvc="sap.ui.core.mvc">
+
+	<semantic:SemanticPage
+		id="detailPage"
+		busy="{detailView>/busy}"
+		busyIndicatorDelay="{detailView>/delay}"
+		showFooter="true">
+		<semantic:titleHeading>
+			<Title
+				text="{PoNumber}"
+				level="H1"/>												
+		</semantic:titleHeading>
+
+		<!-- TitleExpanded content-->
+		<semantic:titleSnappedContent>
+			<layout:HorizontalLayout allowWrapping="true">
+				<layout:VerticalLayout class="sapUiMediumMarginEnd">			
+					<ObjectAttribute title="Nettowert" text="{NetValue}"/>
+					<ObjectAttribute title="Waehrung" text="{Currency}"/>
+				</layout:VerticalLayout>
+
+				<layout:VerticalLayout>
+					<ObjectAttribute title="Status der Bestellung"/>
+					<ObjectStatus text="{Status}" state="{/objectDescription/status}"/>
+				</layout:VerticalLayout>
+			</layout:HorizontalLayout>							
+		</semantic:titleSnappedContent>
+
+		<!-- TitleSnapped content-->
+		<semantic:titleExpandedContent>
+			<layout:HorizontalLayout allowWrapping="true">
+				<layout:VerticalLayout class="sapUiMediumMarginEnd">			
+					<ObjectAttribute title="Nettowert" text="{NetValue}"/>
+					<ObjectAttribute title="Waehrung" text="{Currency}"/>
+				</layout:VerticalLayout>
+
+				<layout:VerticalLayout>
+					<ObjectAttribute title="Status der Bestellung"/>
+					<ObjectStatus text="{Status}" state="{/objectDescription/status}"/>
+				</layout:VerticalLayout>
+			</layout:HorizontalLayout>			
+		</semantic:titleExpandedContent>
+
+		<semantic:titleContent>
+		</semantic:titleContent>
+
+		<semantic:headerContent>
+			<layout:HorizontalLayout allowWrapping="true">
+				<layout:VerticalLayout class="sapUiMediumMarginEnd">
+					<ObjectAttribute title="Lieferant" text="{Vendor}"/>
+					<ObjectAttribute 
+					title="Belegdatum"
+					text="{
+						path: 'DocDate',
+						type: 'sap.ui.model.type.Date',
+						formatOptions: {
+							pattern: 'dd.MM.YYYY'
+						}
+					}"/>					
+					<ObjectAttribute title="VerkaueferIn" text="{SalesPers}"/>
+					<ObjectAttribute title="Beschreibung" text="{ShortText}"/>
+				</layout:VerticalLayout>
+
+			</layout:HorizontalLayout>					
+		</semantic:headerContent>
+		<semantic:content>
+			<Table
+				id="lineItemsList"
+				width="auto"
+				items="{ItemServices}"
+				updateFinished=".onListUpdateFinished"
+				noDataText="{i18n>detailLineItemTableNoDataText}"
+				busyIndicatorDelay="{detailView>/lineItemTableDelay}">
+				<headerToolbar>
+					<Toolbar>
+						<Title
+							id="lineItemsTitle"
+							text="{detailView>/lineItemListTitle}"
+							titleStyle="H3"
+							level="H3"/>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column id="columnLineNo"><Text text="{/#POItemService/LineNo/@sap:label}" id="labelLineNo"/></Column>
+					<Column 
+						minScreenWidth="Tablet"
+						demandPopin="true"
+						hAlign="End"						
+						id="columnMatlGroup"><Text text="{/#POItemService/MatlGroup/@sap:label}" id="labelMatlGroup"/></Column>
+					<Column 
+						minScreenWidth="Tablet"
+						demandPopin="true"
+						hAlign="End"	
+						id="columnQuantity"><Text text="{/#POItemService/Quantity/@sap:label}" id="labelQuantity"/></Column>
+					<Column 
+						minScreenWidth="Tablet"
+						demandPopin="true"
+						hAlign="End"	
+						id="columnNetValue"><Text text="{/#POItemService/NetValue/@sap:label}" id="labelNetValue"/></Column>		
+					<Column 
+						minScreenWidth="Tablet"
+						demandPopin="true"
+						hAlign="End"					
+						id="columnGrossVal"><Text text="{/#POItemService/GrossVal/@sap:label}" id="labelGrossVal"/></Column>								
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<ObjectIdentifier
+								title="{LineNo}"
+								text="{Purchaseorder}"/>
+							<Text text="{MatlGroup}"/>
+							<ObjectNumber
+								number="{
+									path: 'Quantity',
+									formatter: '.formatter.currencyValue'
+								}"/>
+							<ObjectNumber
+								number="{
+									path: 'NetValue',
+									formatter: '.formatter.currencyValue'
+								}"/>	
+							<ObjectNumber
+								number="{
+									path: 'GrossVal',
+									formatter: '.formatter.currencyValue'
+								}"/>																														
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+		<!--Semantic ShareMenu Buttons-->
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction
+				id="shareEmail"
+				press=".onSendEmailPress"/>
+		</semantic:sendEmailAction>
+
+		<semantic:closeAction>
+			<semantic:CloseAction
+					id="closeColumn"
+					press=".onCloseDetailPress"/>
+		</semantic:closeAction>
+
+		<semantic:fullScreenAction>
+			<semantic:FullScreenAction
+					id="enterFullScreen"
+					visible="{= !${device>/system/phone} &amp;&amp; !${appView>/actionButtonsInfo/midColumn/fullScreen}}"
+					press=".toggleFullScreen"/>
+		</semantic:fullScreenAction>
+		<semantic:exitFullScreenAction>
+			<semantic:ExitFullScreenAction
+					id="exitFullScreen"
+					visible="{= !${device>/system/phone} &amp;&amp; ${appView>/actionButtonsInfo/midColumn/fullScreen}}"
+					press=".toggleFullScreen"/>
+		</semantic:exitFullScreenAction>
+
+		<semantic:positiveAction>
+			<semantic:PositiveAction text="Freigeben" id="buttonOnApproved" press="onApproved" />
+		</semantic:positiveAction>
+
+		<semantic:negativeAction>
+			<semantic:NegativeAction text="Ablehnen" id="buttonOnReject" press="onReject"  />
+		</semantic:negativeAction>				
+
+	</semantic:SemanticPage>
+
+</mvc:View>

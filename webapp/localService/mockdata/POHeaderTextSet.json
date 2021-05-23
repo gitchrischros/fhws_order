@@ -1,0 +1,91 @@
+[{
+	"PoNumber": "PoNumber 1",
+	"TextId": "TextId 1",
+	"TextForm": "TextForm 1",
+	"TextLine": "TextLine 1",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%201')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}, {
+	"PoNumber": "PoNumber 2",
+	"TextId": "TextId 2",
+	"TextForm": "TextForm 2",
+	"TextLine": "TextLine 2",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%202')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}, {
+	"PoNumber": "PoNumber 3",
+	"TextId": "TextId 3",
+	"TextForm": "TextForm 3",
+	"TextLine": "TextLine 3",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%203')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}, {
+	"PoNumber": "PoNumber 4",
+	"TextId": "TextId 4",
+	"TextForm": "TextForm 4",
+	"TextLine": "TextLine 4",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%204')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}, {
+	"PoNumber": "PoNumber 5",
+	"TextId": "TextId 5",
+	"TextForm": "TextForm 5",
+	"TextLine": "TextLine 5",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%205')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}, {
+	"PoNumber": "PoNumber 6",
+	"TextId": "TextId 6",
+	"TextForm": "TextForm 6",
+	"TextLine": "TextLine 6",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%206')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}, {
+	"PoNumber": "PoNumber 7",
+	"TextId": "TextId 7",
+	"TextForm": "TextForm 7",
+	"TextLine": "TextLine 7",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%207')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}, {
+	"PoNumber": "PoNumber 8",
+	"TextId": "TextId 8",
+	"TextForm": "TextForm 8",
+	"TextLine": "TextLine 8",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%208')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}, {
+	"PoNumber": "PoNumber 9",
+	"TextId": "TextId 9",
+	"TextForm": "TextForm 9",
+	"TextLine": "TextLine 9",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%209')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}, {
+	"PoNumber": "PoNumber 10",
+	"TextId": "TextId 10",
+	"TextForm": "TextForm 10",
+	"TextLine": "TextLine 10",
+	"__metadata": {
+		"uri": "POHeaderTextSet('PoNumber%2010')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POHeaderText"
+	}
+}]

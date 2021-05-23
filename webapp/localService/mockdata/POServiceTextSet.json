@@ -1,0 +1,111 @@
+[{
+	"Purchaseorder": "PoNumber 1",
+	"PckgNo": "PckgNo 1",
+	"LineNo": "LineNo 1",
+	"TextId": "TextId 1",
+	"FormatCol": "FormatCol 1",
+	"TextLine": "TextLine 1",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%201',PckgNo='PckgNo%201')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}, {
+	"Purchaseorder": "PoNumber 2",
+	"PckgNo": "PckgNo 2",
+	"LineNo": "LineNo 2",
+	"TextId": "TextId 2",
+	"FormatCol": "FormatCol 2",
+	"TextLine": "TextLine 2",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%202',PckgNo='PckgNo%202')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}, {
+	"Purchaseorder": "PoNumber 3",
+	"PckgNo": "PckgNo 3",
+	"LineNo": "LineNo 3",
+	"TextId": "TextId 3",
+	"FormatCol": "FormatCol 3",
+	"TextLine": "TextLine 3",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%203',PckgNo='PckgNo%203')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}, {
+	"Purchaseorder": "PoNumber 4",
+	"PckgNo": "PckgNo 4",
+	"LineNo": "LineNo 4",
+	"TextId": "TextId 4",
+	"FormatCol": "FormatCol 4",
+	"TextLine": "TextLine 4",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%204',PckgNo='PckgNo%204')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}, {
+	"Purchaseorder": "PoNumber 5",
+	"PckgNo": "PckgNo 5",
+	"LineNo": "LineNo 5",
+	"TextId": "TextId 5",
+	"FormatCol": "FormatCol 5",
+	"TextLine": "TextLine 5",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%205',PckgNo='PckgNo%205')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}, {
+	"Purchaseorder": "PoNumber 6",
+	"PckgNo": "PckgNo 6",
+	"LineNo": "LineNo 6",
+	"TextId": "TextId 6",
+	"FormatCol": "FormatCol 6",
+	"TextLine": "TextLine 6",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%206',PckgNo='PckgNo%206')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}, {
+	"Purchaseorder": "PoNumber 7",
+	"PckgNo": "PckgNo 7",
+	"LineNo": "LineNo 7",
+	"TextId": "TextId 7",
+	"FormatCol": "FormatCol 7",
+	"TextLine": "TextLine 7",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%207',PckgNo='PckgNo%207')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}, {
+	"Purchaseorder": "PoNumber 8",
+	"PckgNo": "PckgNo 8",
+	"LineNo": "LineNo 8",
+	"TextId": "TextId 8",
+	"FormatCol": "FormatCol 8",
+	"TextLine": "TextLine 8",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%208',PckgNo='PckgNo%208')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}, {
+	"Purchaseorder": "PoNumber 9",
+	"PckgNo": "PckgNo 9",
+	"LineNo": "LineNo 9",
+	"TextId": "TextId 9",
+	"FormatCol": "FormatCol 9",
+	"TextLine": "TextLine 9",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%209',PckgNo='PckgNo%209')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}, {
+	"Purchaseorder": "PoNumber 10",
+	"PckgNo": "PckgNo 10",
+	"LineNo": "LineNo 10",
+	"TextId": "TextId 10",
+	"FormatCol": "FormatCol 10",
+	"TextLine": "TextLine 10",
+	"__metadata": {
+		"uri": "POServiceTextSet(Purchaseorder='PoNumber%2010',PckgNo='PckgNo%2010')",
+		"type": "ZOSO_PURCHASE_ORDER_SRV.POServiceText"
+	}
+}]
