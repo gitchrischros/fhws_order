@@ -7,3 +7,6 @@ mta_archives
 mta-*
 resources
 archive.zip
+
+# .vscode Ordner sollten nicht zwischen verschiedenen Systemen geteilt werden
+.vscode
