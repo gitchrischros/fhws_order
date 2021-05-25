@@ -10,10 +10,8 @@
 	],
 	"main": "webapp/index.html",
 	"scripts": {
-		"start": "npm-run-all --parallel start:webapp proxy",
 		"start:webapp": "ui5 serve -o index.html",
 		"proxy": "node proxy.js",
-		
 		"start-local": "fiori run --config ./ui5-local.yaml --open 'test/flpSandboxMockServer.html'",
 		"build": "ui5 build -a --clean-dest --include-task=generateManifestBundle generateCachebusterInfo",
 		"deploy": "fiori verify",
@@ -27,8 +25,7 @@
 		"@ui5/cli": "^2.10.1",
 		"@ui5/fs": "^2.0.6",
 		"@ui5/logger": "^2.0.1",
-		"rimraf": "3.0.2",
-		"cors-anywhere": "^0.4.3"
+		"rimraf": "3.0.2"
 	},
 	"ui5": {
 		"dependencies": [
