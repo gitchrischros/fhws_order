@@ -11,7 +11,6 @@
 	"main": "webapp/index.html",
 	"scripts": {
 		"start:webapp": "ui5 serve -o index.html",
-		"proxy": "node proxy.js",
 		"start-local": "fiori run --config ./ui5-local.yaml --open 'test/flpSandboxMockServer.html'",
 		"build": "ui5 build -a --clean-dest --include-task=generateManifestBundle generateCachebusterInfo",
 		"deploy": "fiori verify",
