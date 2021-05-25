@@ -10,3 +10,4 @@ archive.zip
 
 # .vscode Ordner sollten nicht zwischen verschiedenen Systemen geteilt werden
 .vscode
+*.code-workspace
