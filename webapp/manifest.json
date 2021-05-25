@@ -17,7 +17,7 @@
 		"resources": "resources.json",
 		"dataSources": {
 			"mainService": {
-				"uri": "https://cors-anywhere.herokuapp.com/https://ec2-3-126-86-211.eu-central-1.compute.amazonaws.com:44300/sap/opu/odata/sap/zoso_purchase_order_srv/",
+				"uri": "/sap/opu/odata/sap/zoso_purchase_order_srv/",
 				"type": "OData",
 				"settings": {
 					"odataVersion": "2.0",
