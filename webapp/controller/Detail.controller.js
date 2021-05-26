@@ -221,7 +221,8 @@ sap.ui.define([
 								oModel.read(oSourceBindingContext.sPath, {
 									success: function(oData) {
 										var sKey = oModel.getKey(oData);
-										oData["Status"] = "Freigegeben";
+										//oData["Status"] = "Freigegeben";
+										oData["Status"] = "C";
 										oModel.update('/' + sKey, oData, {
 											success: fnResolve,
 											error: fnReject,
@@ -232,7 +233,8 @@ sap.ui.define([
 								});
 							} else {
 								var sKey = oModel.getKey(oData);
-								oData["Status"] = "Freigegeben";
+								//oData["Status"] = "Freigegeben";
+								oData["Status"] = "C"; //"Freigegeben";	
 								oModel.update('/' + sKey, oData, {
 									success: fnResolve,
 									error: fnReject,
@@ -279,7 +281,7 @@ sap.ui.define([
 								oModel.read(oSourceBindingContext.sPath, {
 									success: function(oData) {
 										var sKey = oModel.getKey(oData);
-										oData["Status"] = "Nicht Freigegeben";
+										oData["Status"] = "9"; //"Nicht Freigegeben";
 										oModel.update('/' + sKey, oData, {
 											success: fnResolve,
 											error: fnReject,
@@ -290,7 +292,7 @@ sap.ui.define([
 								});
 							} else {
 								var sKey = oModel.getKey(oData);
-								oData["Status"] = "Nicht Freigegeben";
+								oData["Status"] = "9"; //"Nicht Freigegeben";								
 								oModel.update('/' + sKey, oData, {
 									success: fnResolve,
 									error: fnReject,

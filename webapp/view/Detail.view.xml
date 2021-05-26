@@ -21,12 +21,15 @@
 			<layout:HorizontalLayout allowWrapping="true">
 				<layout:VerticalLayout class="sapUiMediumMarginEnd">			
 					<ObjectAttribute title="Nettowert" text="{NetValue}"/>
-					<ObjectAttribute title="Waehrung" text="{Currency}"/>
+					<ObjectAttribute title="Währung" text="{Currency}"/>
 				</layout:VerticalLayout>
 
 				<layout:VerticalLayout>
 					<ObjectAttribute title="Status der Bestellung"/>
-					<ObjectStatus text="{Status}" state="{/objectDescription/status}"/>
+					<ObjectStatus text="{
+						path: 'Status',
+						formatter: '.formatter.statusValue'}"  
+					state="{/objectDescription/status}"/>
 				</layout:VerticalLayout>
 			</layout:HorizontalLayout>							
 		</semantic:titleSnappedContent>
@@ -36,12 +39,15 @@
 			<layout:HorizontalLayout allowWrapping="true">
 				<layout:VerticalLayout class="sapUiMediumMarginEnd">			
 					<ObjectAttribute title="Nettowert" text="{NetValue}"/>
-					<ObjectAttribute title="Waehrung" text="{Currency}"/>
+					<ObjectAttribute title="Währung" text="{Currency}"/>
 				</layout:VerticalLayout>
 
 				<layout:VerticalLayout>
 					<ObjectAttribute title="Status der Bestellung"/>
-					<ObjectStatus text="{Status}" state="{/objectDescription/status}"/>
+					<ObjectStatus text="{
+						path: 'Status',
+						formatter: '.formatter.statusValue'}"  
+					state="{/objectDescription/status}"/>
 				</layout:VerticalLayout>
 			</layout:HorizontalLayout>			
 		</semantic:titleExpandedContent>
@@ -62,8 +68,7 @@
 							pattern: 'dd.MM.YYYY'
 						}
 					}"/>					
-					<ObjectAttribute title="VerkaueferIn" text="{SalesPers}"/>
-					<ObjectAttribute title="Beschreibung" text="{ShortText}"/>
+					<ObjectAttribute title="Angelegt von" text="{CreatedBy}"/>
 				</layout:VerticalLayout>
 
 			</layout:HorizontalLayout>					
@@ -72,7 +77,7 @@
 			<Table
 				id="lineItemsList"
 				width="auto"
-				items="{ItemServices}"
+				items="{Items}"
 				updateFinished=".onListUpdateFinished"
 				noDataText="{i18n>detailLineItemTableNoDataText}"
 				busyIndicatorDelay="{detailView>/lineItemTableDelay}">
@@ -86,35 +91,34 @@
 					</Toolbar>
 				</headerToolbar>
 				<columns>
-					<Column id="columnLineNo"><Text text="{/#POItemService/LineNo/@sap:label}" id="labelLineNo"/></Column>
+					<Column id="columnOoItem"><Text text="{/#POItem/PoItem/@sap:label}" id="labelPoItem"/></Column>
 					<Column 
 						minScreenWidth="Tablet"
 						demandPopin="true"
 						hAlign="End"						
-						id="columnMatlGroup"><Text text="{/#POItemService/MatlGroup/@sap:label}" id="labelMatlGroup"/></Column>
+						id="columnMaterial"><Text text="{/#POItem/Material/@sap:label}" id="labelMaterial"/></Column>
 					<Column 
 						minScreenWidth="Tablet"
 						demandPopin="true"
 						hAlign="End"	
-						id="columnQuantity"><Text text="{/#POItemService/Quantity/@sap:label}" id="labelQuantity"/></Column>
+						id="columnQuantity"><Text text="{/#POItem/Quantity/@sap:label}" id="labelQuantity"/></Column>
 					<Column 
 						minScreenWidth="Tablet"
 						demandPopin="true"
 						hAlign="End"	
-						id="columnNetValue"><Text text="{/#POItemService/NetValue/@sap:label}" id="labelNetValue"/></Column>		
+						id="columnNetPrice"><Text text="Nettowert, pro Stück" id="labelNetPrice"/></Column>		
 					<Column 
 						minScreenWidth="Tablet"
 						demandPopin="true"
 						hAlign="End"					
-						id="columnGrossVal"><Text text="{/#POItemService/GrossVal/@sap:label}" id="labelGrossVal"/></Column>								
+						id="columnNetValue"><Text text="Nettowert, Gesamt" id="labelNetValue"/></Column>								
 				</columns>
 				<items>
 					<ColumnListItem>
 						<cells>
 							<ObjectIdentifier
-								title="{LineNo}"
-								text="{Purchaseorder}"/>
-							<Text text="{MatlGroup}"/>
+								title="{PoItem}"/>
+							<Text text="{Material}"/>
 							<ObjectNumber
 								number="{
 									path: 'Quantity',
@@ -122,12 +126,12 @@
 								}"/>
 							<ObjectNumber
 								number="{
-									path: 'NetValue',
+									path: 'NetPrice',
 									formatter: '.formatter.currencyValue'
 								}"/>	
 							<ObjectNumber
 								number="{
-									path: 'GrossVal',
+									path: 'NetValue',
 									formatter: '.formatter.currencyValue'
 								}"/>																														
 						</cells>

@@ -99,10 +99,12 @@
 									pattern: 'dd.MM.YYYY'
 								}
 							}"
-							id="__attribute4" 
 							title="Angelegt am"/>
-							<ObjectAttribute text="{Vendor}" id="__attribute4_copy" title="Lieferant"/>
-							<ObjectAttribute text="{Status}" id="__attribute4_copy2" title="Status"/>
+							<ObjectAttribute text="{Vendor}" title="Lieferant"/>
+							<ObjectAttribute text="{
+								path: 'Status',
+								formatter: '.formatter.statusValue'}" 
+							title="Status"/>
 						</attributes>							
 					</ObjectListItem>
 				</items>
