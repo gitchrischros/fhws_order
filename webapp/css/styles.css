@@ -1,0 +1,10 @@
+
+#shell-header-icon {
+    padding: 18px 20px;
+    background: url("../logo/Fahrrad.png");
+    width: 0px;
+    height: 0px;
+    background-size: 40px 36px;
+    background-repeat: no-repeat;
+}
+
