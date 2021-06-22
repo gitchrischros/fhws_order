@@ -80,6 +80,13 @@
 				"preload": true
 			}
 		},
+		"resources": {
+			"css": [
+			  {
+				"uri": "css/styles.css"
+			  }
+			]
+		},
 
 		"routing": {
 			"config": {
